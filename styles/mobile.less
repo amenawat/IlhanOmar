@@ -27,68 +27,68 @@
 
 }
 
-@media only screen and (max-device-height: 768px) {
+// @media only screen and (max-device-height: 768px) {
 
-	// Promoted Gallery height mixin
-	.has-promoted-gallery-height(@gheight) {
-	  .collection-type-page.has-promoted-gallery,
-	  .collection-type-index.has-promoted-gallery {
-	  	#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-	  	.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-		    height: @gheight !important;
-		    .sqs-gallery {
-		      height: @gheight !important;
-		    }
-			}
-			&.transparent-header {
-				#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-				.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-				  height: @gheight + 2*@mobilePadding !important;
-				  .sqs-gallery {
-				    height: @gheight + 2*@mobilePadding !important;
-				  }
-				  .meta .meta-inside {
-						padding-top: @mobilePadding*2;
-				  }
-				}
-				&.collection-type-index{
-					.index-section:not(:first-of-type){
-						#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-						.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-							height: @gheight !important;
-							.sqs-gallery {
-								height: @gheight !important;
-							}
-					    .meta .meta-inside {
-								padding-top:0;
-					    }
-						}
-					}
-				}
-			}
-	  }
+// 	// Promoted Gallery height mixin
+// 	.has-promoted-gallery-height(@gheight) {
+// 	  .collection-type-page.has-promoted-gallery,
+// 	  .collection-type-index.has-promoted-gallery {
+// 	  	#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 	  	.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 		    height: @gheight !important;
+// 		    .sqs-gallery {
+// 		      height: @gheight !important;
+// 		    }
+// 			}
+// 			&.transparent-header {
+// 				#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 				.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 				  height: @gheight + 2*@mobilePadding !important;
+// 				  .sqs-gallery {
+// 				    height: @gheight + 2*@mobilePadding !important;
+// 				  }
+// 				  .meta .meta-inside {
+// 						padding-top: @mobilePadding*2;
+// 				  }
+// 				}
+// 				&.collection-type-index{
+// 					.index-section:not(:first-of-type){
+// 						#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 						.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 							height: @gheight !important;
+// 							.sqs-gallery {
+// 								height: @gheight !important;
+// 							}
+// 					    .meta .meta-inside {
+// 								padding-top:0;
+// 					    }
+// 						}
+// 					}
+// 				}
+// 			}
+// 	  }
 
-	  .sqs-featured-posts-gallery .gallery-wrapper .posts {
-  		height: @gheight !important;
-	  	.post {
-		  	height: @gheight !important;
-		  }
-	  }
+// 	  .sqs-featured-posts-gallery .gallery-wrapper .posts {
+//   		height: @gheight !important;
+// 	  	.post {
+// 		  	height: @gheight !important;
+// 		  }
+// 	  }
 
-	  .transparent-header {
-		  .sqs-featured-posts-gallery {
-		  	.gallery-wrapper .posts {
-		  		height: @gheight + 2*@mobilePadding !important;
-			  	.post {
-				  	height: @gheight + 2*@mobilePadding !important;
-				  }
-				}
-				.title-desc-wrapper {
-					padding: @mobilePadding*3 @mobilePadding @mobilePadding;
-				}
-		  }
-	  }
-	}
+// 	  .transparent-header {
+// 		  .sqs-featured-posts-gallery {
+// 		  	.gallery-wrapper .posts {
+// 		  		height: @gheight + 2*@mobilePadding !important;
+// 			  	.post {
+// 				  	height: @gheight + 2*@mobilePadding !important;
+// 				  }
+// 				}
+// 				.title-desc-wrapper {
+// 					padding: @mobilePadding*3 @mobilePadding @mobilePadding;
+// 				}
+// 		  }
+// 	  }
+// 	}
 
 	@galleryHeightTablet: 600px;
 	.has-promoted-gallery-height(@galleryHeightTablet);
@@ -123,59 +123,59 @@
 
 }
 
-@media only screen and (max-device-height: 640px) {
+// @media only screen and (max-device-height: 640px) {
 
-	// Promoted Gallery height mixin
-	.has-promoted-gallery-height(@gheight) {
-	  .collection-type-page.has-promoted-gallery,
-	  .collection-type-index.has-promoted-gallery {
-	  	#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-	  	.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-		    height: @gheight !important;
-		    .sqs-gallery {
-		      height: @gheight !important;
-		    }
-			}
-			&.transparent-header {
-				#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-				.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-				  height: @gheight + 2*@mobilePadding !important;
-				  .sqs-gallery {
-				    height: @gheight + 2*@mobilePadding !important;
-				  }
-				}
-				&.collection-type-index{
-					.index-section:not(:first-of-type){
-						#promotedGalleryWrapper .sqs-gallery-block-slideshow,
-						.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
-							height: @gheight !important;
-							.sqs-gallery {
-								height: @gheight !important;
-							}
-						}
-					}
-				}
-			}
-	  }
+// 	// Promoted Gallery height mixin
+// 	.has-promoted-gallery-height(@gheight) {
+// 	  .collection-type-page.has-promoted-gallery,
+// 	  .collection-type-index.has-promoted-gallery {
+// 	  	#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 	  	.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 		    height: @gheight !important;
+// 		    .sqs-gallery {
+// 		      height: @gheight !important;
+// 		    }
+// 			}
+// 			&.transparent-header {
+// 				#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 				.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 				  height: @gheight + 2*@mobilePadding !important;
+// 				  .sqs-gallery {
+// 				    height: @gheight + 2*@mobilePadding !important;
+// 				  }
+// 				}
+// 				&.collection-type-index{
+// 					.index-section:not(:first-of-type){
+// 						#promotedGalleryWrapper .sqs-gallery-block-slideshow,
+// 						.promoted-gallery-wrapper .sqs-gallery-block-slideshow {
+// 							height: @gheight !important;
+// 							.sqs-gallery {
+// 								height: @gheight !important;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 	  }
 
-	  .sqs-featured-posts-gallery .gallery-wrapper .posts {
-  		height: @gheight !important;
-	  	.post {
-		  	height: @gheight !important;
-		  }
-	  }
+// 	  .sqs-featured-posts-gallery .gallery-wrapper .posts {
+//   		height: @gheight !important;
+// 	  	.post {
+// 		  	height: @gheight !important;
+// 		  }
+// 	  }
 
-	  .transparent-header {
-		  .sqs-featured-posts-gallery {
-		  	.gallery-wrapper .posts {
-		  		height: @gheight + 2*@mobilePadding !important;
-			  	.post {
-				  	height: @gheight + 2*@mobilePadding !important;
-				  }
-				}
-		  }
-	  }
-	}
+// 	  .transparent-header {
+// 		  .sqs-featured-posts-gallery {
+// 		  	.gallery-wrapper .posts {
+// 		  		height: @gheight + 2*@mobilePadding !important;
+// 			  	.post {
+// 				  	height: @gheight + 2*@mobilePadding !important;
+// 				  }
+// 				}
+// 		  }
+// 	  }
+// 	}
 
 	@galleryHeightMobile: 300px;
 	.has-promoted-gallery-height(@galleryHeightMobile);
