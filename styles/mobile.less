@@ -98,8 +98,8 @@
 	.collection-type-page,
 	.collection-type-blog.view-item {
 		.banner-thumbnail-wrapper {
-			padding-top:0;
-			padding-bottom:0;
+			// padding-top:0;
+			// padding-bottom:0;
 			&:not(.has-description){
 				min-height: 6*@mobilePadding;
 			}
@@ -110,16 +110,16 @@
 			}
 		}
 	}
-	// .collection-type-index.view-list {
-	// 	&.transparent-header {
-	// 		.index-section:not(:first-of-type) {
-	// 			.banner-thumbnail-wrapper {
-	// 			 	padding-top:0;
-	// 			 	padding-bottom:0
-	// 			}
-	// 		}
-	// 	}
-	// }
+	.collection-type-index.view-list {
+		&.transparent-header {
+			.index-section:not(:first-of-type) {
+				.banner-thumbnail-wrapper {
+				 	padding-top:0;
+				 	padding-bottom:0
+				}
+			}
+		}
+	}
 
 }
 
